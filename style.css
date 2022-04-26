@@ -820,7 +820,101 @@ li.video:hover:before {
    }
 }
 
-
+/* Socials section styling */
+.site{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper{
+    display:flex;
+    height: 20vh;
+    flex-direction: row;
+    padding: 0 10px;
+    align-items: center;
+  }
+  
+  
+  
+  .fab {
+  margin: auto;
+  
+  }
+  .social{
+    color: #FFF;
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  }
+  .social:hover {
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      transition: all ease 0.5s;
+      -moz-transition: all ease-in 0.5s;
+      -webkit-transition: all ease-in 0.5s;
+      -o-transition: all ease-in 0.5s;
+    
+  }
+  
+  .facebook {
+   color:#4267B2;
+  }
+  
+  .linkedin {
+  color:#1DA1F2;
+  
+  }
+  .youtube {
+        color:#c4302b;
+  }
+  .github {
+     color:#000;
+  }
+  .bg-ico {
+    display: flex;
+    background-color: #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+    opacity: 0.99;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    
+  }
+  .bg-ico:hover{
+       box-shadow: 0 5px 15px -5px rgba(0,0,0,0.8);
+  }
+  
+  #facebook:hover {
+    background-color: #4267B2;
+  }
+  
+  #linkedin:hover {
+  background-color: #1DA1F2;
+  
+  }
+  #youtube:hover {
+        background-color: #c4302b;
+  }
+  #github:hover {
+     background-color:#c8232c;
+  }
+  
+  .facebook:hover, 
+  .linkedin:hover, 
+  .youtube:hover, 
+  .github:hover{
+   color:#fff;
+   transform: scale(1.3);
+  }
+  
 
 /* contact section styling */
 .contact .title::after{
