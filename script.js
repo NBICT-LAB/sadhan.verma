@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["a data scientist", "an entrepreneur", "CEO at NBICT LAB"],
+        strings: ["a data science enthusiast", "an entrepreneur", "CEO at NBICT LAB"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
